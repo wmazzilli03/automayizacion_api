@@ -1,0 +1,32 @@
+# Node modules (ya lo tienes)
+node_modules/
+
+# Reportes generados (ya tienes parte)
+report/
+*.html
+*.xml
+*.json
+
+# Archivos de salida de Playwright
+test-results/
+playwright-report/
+
+# Reportes de Cucumber si los generas como JSON o HTML
+cucumber_report.json
+cucumber_report.html
+
+# Archivos de log temporales
+*.log
+
+# Cache de IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de entorno
+.env
+local.env
+
